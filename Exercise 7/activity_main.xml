@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableRow
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examination"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Board"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year of Passing"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#99ccff"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Class X"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#99ccff"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Graduation"
+            android:padding="10dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:background="#99ccff"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+    </TableRow>
+
+<TableRow
+    android:layout_gravity="center"
+    android:layout_marginLeft="100dp">
+    <Button
+        android:id="@+id/m1"
+        android:text="SUBMIT"/>
+
+    </TableRow>
+
+
+</TableLayout>
